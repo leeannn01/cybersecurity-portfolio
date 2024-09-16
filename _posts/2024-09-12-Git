@@ -1,0 +1,54 @@
+---
+title: "Git Version Control, History"
+date: 2024-09-12 16:36:00 +0800
+categories: [General Skills]
+tags: [Git]
+---
+
+# Git Version Control, History
+- Git allows you to track changes, manage versions, and revert to your previous versions on file. Below is a quick guide on how to do it from the command prompt
+
+- Basic Git Workflow
+1. Initialising a Git Repository
+    `git init`
+
+2. Check the status of the Repository
+    `git status`
+
+3. Stage Changes
+    - After modifying files, you need to stage them before committing. You can stage individual files or all the files
+    - Specific file:
+        `git add filenmae`
+
+    - Stage all changes:
+        `git add .`
+
+4. Commit Changes
+    - once changes are staged, you can commit them with a message describing the changes:
+        `git commit -m "Your commit message/ description"`
+
+5. View Commit History
+    `git log`
+    - This will show all the commits, including their hash (ID), author, date and commit message
+
+- Reverting to previous version
+1. Using `git checkout` to tempoorarily view wa previous version
+    `git checkout <commit_hash>`
+
+    - This will put your repository into a "detached HEAD" state, meaning you are viewing the code as it was at that commit.
+
+    - To **Return** to **latest** commit (back to `master` or `main` branch):
+        `git checkout master #or git checkout main`
+
+2. Revert to previous commit (safeway)
+    `git revert <commit_hash>`
+
+3. Revert to previous commit (destructive way - unable to undo)
+    `git reset --hard <commit_hash>`
+ 
+- **Lesson learnt:**
+    - once revert into the previous version using checkout, im able to access the old files (before edits) in the repository
+    - can do an `ls` to check out the list of files after revert
+    - can `cat` files to see contents before edit
+    - OR explore the commit history if unsure of where to find the content/ flag
+        `git log -p hash_position`
