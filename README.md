@@ -13,26 +13,51 @@ Portfolio showcasing cybersecurity projects, insights, and learnings
 ## Portfolio Structure
 ```
 cybersecurity-portfolio/
-├── _config.yml           # Site settings
-├── index.md              # Homepage
-├── _pages/               # Custom pages
-│   ├── projects.md       # Projects page
-│   ├── blog.md           # Blog page
-│   ├── contact.md        # Contact page
-│   ├── writeups.md       # Cybersecurity write-ups
-├── _posts/               # Blog posts (if needed)
+├── _config.yml                             # Site settings
+├── index.md                                # Homepage
+├── pages/                                  # Custom pages
+│   ├── projects.md                         # Projects page
+│   ├── blog.md                             # Blog page
+│   ├── contact.md                          # Contact page
+│   └── writeup.md                          # Cybersecurity write-ups
+|   
+├── posts/                                  # Blog posts (if needed)
 │   ├── 2025-03-12-example.md
-│   ├── 2025-03-10-pcap-analysis.md
-├── writeups/             # Cybersecurity technical write-ups
+│   └── 2025-03-10-pcap-analysis.md
+|   
+├── writeups/                               # Cybersecurity technical write-ups
 │   ├── example.md
-│   ├── pcap-analysis.md
-├── projects/             # Project details
-│   ├── network-analysis/  
-│   │   ├── README.md     # Project write-up
-│   │   ├── analyzer.py   # Code file
-│   │   ├── detector.py   # Detection script
-├── LICENSE                  # Project license
-└── README.md                # Project overview
+│   └── pcap-analysis.md
+|
+├── projects/                               # Project details
+│   └── network-traffic-analysis-tool/  
+│       ├── README.md                       # Project write-up
+│       ├── src                             # Python scripts for processing
+│       |   ├── analyser.py                     # Analyser script
+│       |   ├── detector.py                     # Detection script (Malware detection)
+|       |   └── visualiser.py                   # Visualiser script
+|       ├── scripts/                        # Bash scripts 
+|       |   ├── capture_traffic.sh              # tcpdump automation
+|       |   ├── run_pcap_analysis.sh            # Automated run of src scripts
+|       ├── docs/                           # Documentation and reports
+|       │   ├── websites.txt                    # List of website to scraped
+|       │   └── manuf                           # MAC address OUI Lookup
+|       ├── data/                           # Folder (PCAP files - from both web scrapping/downloaded)
+|       |   ├── pcap1
+|       |   └── pcap2
+|       └── results/                        # All analysed results saved within 
+|           └── pcap1
+|               ├── downloads_pcap1/        # Downlable content within payload saved within 
+|               |   ├── .jpeg
+|               |   └── .bmp
+|               ├── payload_pcap1.txt       # Payload extracted
+|               ├── pcap1.csv               # Packet Data extracted
+|               ├── Malicious Traffic/      # Results from Detector saved within (a csv and text summary)
+|               |   ├── malicious_summary_pcap1.txt
+|               |   └── malicious_traffic_pcap1.csv
+|               └── Visuals/                # Results from Visualiser
+├── LICENSE                                 # Project license
+└── README.md                               # Project overview
 ```
 ---
 
@@ -70,7 +95,8 @@ A set of Python and Bash scripts for **capturing, analyzing, detecting, and visu
 ```bash
 git clone https://github.com/yourusername/cybersecurity-portfolio.git
 cd cybersecurity-portfolio
-bash capture_traffic.sh  # Start capturing network traffic
+chmod +x ./script.sh        # Ensure that script is executable
+bash capture_traffic.sh     # Start capturing network traffic
 bash run_pcap_analysis.sh   # Automated analysis of pcap file (analyse-detect-visualise)
 ```
 ---

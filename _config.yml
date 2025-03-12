@@ -1,0 +1,23 @@
+title: "Cybersecurity Portfolio"
+author: "Lee Ann"
+email: "lannn.sg@gmail.com"
+description: "A collection of my cybersecurity projects, write-ups, research and insights related to cybersecurity."
+
+theme: jekyll-theme-cayman
+
+# Enable GitHub Pages navigation links
+show_downloads: false
+baseurl: "" #Set to "" (empty) for root access
+
+# Enable collections for Projects, Blog, and Write-ups
+collections:
+  projects:
+    output: true
+  blog:
+    output: true
+  writeups:
+    output: true
+
+# Markdown Processing
+markdown: kramdown
+permalink: pretty
