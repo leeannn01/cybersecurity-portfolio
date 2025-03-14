@@ -12,5 +12,5 @@ I am a cybersecurity enthusiast specializing in **network security, automation, 
 
 ## Quick Link
 📂 **[View My Projects](./pages/projects.md)** 
-📚 **[Read My Blog](./pages/blog.md)** 
+📚 **[Read My Blog](./pages//blog.md)** 
 📩 **[Contact Me](./pages/contact.md)**

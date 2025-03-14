@@ -11,4 +11,4 @@ Below are my hands-on security projects:
 {% endfor %}
 
 ---
-🔙 **[Return to Home](./index.md)**  
+🔙 **[Return to Home](../index.md)**  

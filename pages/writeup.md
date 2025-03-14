@@ -11,4 +11,4 @@ In-depth security research, case studies, and practical solutions.
 {% endfor %}
 
 ---
-🔙 **[Return to Home](./index.md)**  
+🔙 **[Return to Home](../)**  
