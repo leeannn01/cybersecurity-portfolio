@@ -18,6 +18,17 @@ collections:
   writeups:
     output: true
 
+# Navigation Links
+navigation:
+  - title: Home
+    url: /
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/
+    
 # Markdown Processing
 markdown: kramdown
 permalink: pretty
