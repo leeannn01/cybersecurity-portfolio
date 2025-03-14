@@ -1,5 +1,6 @@
 ---
 title: Cybersecurity Portfolio
+layout: default
 ---
 
 # Welcome to My Cybersecurity Portfolio 🔐
