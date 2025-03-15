@@ -1,5 +1,7 @@
-title: "Cybersecurity Portfolio"
+title: Cybersecurity Portfolio
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-remote-theme
 author: "Lee Ann"
 email: "lannn.sg@gmail.com"
 description: "A collection of my cybersecurity projects, write-ups, research and insights related to cybersecurity."
