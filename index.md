@@ -3,8 +3,6 @@ title: Cybersecurity Portfolio
 layout: default
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pages-themes/cayman@v0.2.0/assets/css/style.css">
-
 # Welcome to My Cybersecurity Portfolio 🔐
 
 I am a cybersecurity enthusiast specializing in **network security, automation, and threat detection**.
