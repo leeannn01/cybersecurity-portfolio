@@ -12,7 +12,3 @@ My insights and technical knowledge in cybersecurity.
 ---
 🔙 **[Return to Home](../index.md)**  
 
-	•	🔐 Web security (OWASP Top 10)
-	•	🔍 Packet analysis techniques
-	•	🛡️ Malware analysis fundamentals
-	•	🖥️ System hardening & security automation
