@@ -1,5 +1,6 @@
 ---
 title: Blog
+permalink: /blogs/
 layout: default
 ---
 
@@ -10,5 +11,5 @@ My insights and technical knowledge in cybersecurity.
 - **[{{ post.title }}]({{ post.url }})**
 {% endfor %}
 ---
-🔙 **[Return to Home](../index.md)**  
+🔙 **[Return to Home](/)**  
 

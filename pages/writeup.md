@@ -1,5 +1,6 @@
 ---
 title: Write-ups
+permalink: /writeup/
 layout: default
 ---
 
