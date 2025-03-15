@@ -36,6 +36,15 @@ jobs:
         with:
           ruby-version: "3.1"
 
+      - name: Verify Gemfile Exists
+        run: |
+          if [ -f "Gemfile" ]; then
+            echo "✅ Gemfile found"
+          else
+            echo "❌ ERROR: Gemfile is missing!"
+            exit 1
+          fi
+          
       - name: Install Dependencies
         run: |
           gem install bundler
