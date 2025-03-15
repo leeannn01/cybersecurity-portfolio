@@ -8,8 +8,8 @@ description: "A collection of my cybersecurity projects, write-ups, research and
 
 # Enable GitHub Pages navigation links
 show_downloads: false
-baseurl: "" #Set to "" (empty) for root access
-url: "https://leeannn01.github.io/cybersecurity-portfolio/"
+baseurl: "/cybersecurity-portfolio" #Set to "" (empty) for root access
+url: "https://leeannn01.github.io"
 
 
 # Enable collections for Projects, Blog, and Write-ups

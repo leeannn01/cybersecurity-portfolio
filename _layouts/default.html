@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pages-themes/cayman@v0.2.0/assets/css/style.css">
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/style.css">
+
+    <!-- ✅ Add favicon -->
+    <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico">
+
 </head>
 <body>
     <header>
         <h1>{{ site.title }}</h1>
         <p>{{ site.description }}</p>
     </header>
+
     <main>
         {{ content }}
     </main>
+
+    <!-- ✅ Load external JavaScript file -->
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
+
 </body>
 </html>
