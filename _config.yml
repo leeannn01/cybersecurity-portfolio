@@ -8,6 +8,8 @@ theme: jekyll-theme-cayman
 # Enable GitHub Pages navigation links
 show_downloads: false
 baseurl: "" #Set to "" (empty) for root access
+url: "https://leeannn01.github.io/cybersecurity-portfolio/"
+
 
 # Enable collections for Projects, Blog, and Write-ups
 collections:
