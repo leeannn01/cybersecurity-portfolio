@@ -28,6 +28,8 @@ navigation:
     url: /projects/
   - title: Blog
     url: /blog/
+  - title: Writeup
+    url: /writeup/r
   - title: Contact
     url: /contact/
     
