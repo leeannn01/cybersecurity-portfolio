@@ -4,13 +4,12 @@ plugins:
   - jekyll-remote-theme
 author: "Lee Ann"
 email: "lannn.sg@gmail.com"
-description: "A collection of my cybersecurity projects, write-ups, research and insights related to cybersecurity."
+description: "A collection of my cybersecurity projects, write-ups, research, and insights related to cybersecurity."
 
 # Enable GitHub Pages navigation links
 show_downloads: false
-baseurl: "/cybersecurity-portfolio" #Set to "" (empty) for root access
+baseurl: "/cybersecurity-portfolio"  # Set to "" if deployed at root
 url: "https://leeannn01.github.io"
-
 
 # Enable collections for Projects, Blog, and Write-ups
 collections:
@@ -29,11 +28,11 @@ navigation:
     url: /projects/
   - title: Blog
     url: /blog/
-  - title: Writeup
-    url: /writeup/r
+  - title: Writeups
+    url: /writeups/
   - title: Contact
     url: /contact/
-    
+
 # Markdown Processing
 markdown: kramdown
 permalink: pretty
